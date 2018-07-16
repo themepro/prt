@@ -1,0 +1,374 @@
+@media(min-width:768px) and (max-width:991px) {
+
+	 header{
+        background: #222;
+    }
+    .navbar-toggler{
+        background: none;
+        height: 70px;
+    }
+    .nav-link{
+        background: #000;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        padding: 12px 13px!important;
+    }
+    .nav-link:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+        background: #fff!important;
+        height: 2px;
+        width: 100px;
+        z-index: 9999;
+    }
+    .nav-item .active{
+        position: relative;
+        transition: all linear 0.3s;
+    }
+    .nav-item .active:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 26%;
+        background: #fff!important;
+        height: 2px;
+        width: 300px;
+        z-index: 9999;
+    }
+   
+.port-img-section .venobox{
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+	padding-top: 10px;
+	transition: all linear 0.5s;
+}
+.portfolio-image{
+	height: 760px;
+}
+.blog-contant h2{
+	font-size: 13px;
+}
+.blog-contant p{
+	text-align: justify;
+}
+.blog-contant ul li{
+	padding: 0px;
+}
+
+.media-part {
+    margin-left: 5px;
+}
+span.month {
+    font-size: 12px;
+}
+.media-part-one {
+    margin-right: 5px;
+}
+span.comment-item {
+    font-size: 12px;
+}
+i.fa.fa-comment {
+    margin-right: 3px;
+    font-size: 15px;
+}
+
+#counter{
+	padding: 70px 0px;
+}
+.contact-forem .forem-name{
+	margin-bottom: 26px;
+}
+.contact-forem .email{
+	margin-left: 0px;
+}
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+    
+   	 header{
+        background: #222;
+    }
+    .navbar-toggler{
+        background: none;
+        height: 70px;
+    }
+    .nav-link{
+        background: #000;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        padding: 12px 13px!important;
+    }
+    .nav-link:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+        background: #fff!important;
+        height: 2px;
+        width: 100px;
+        z-index: 9999;
+    }
+    .nav-item .active{
+        position: relative;
+        transition: all linear 0.3s;
+    }
+    .nav-item .active:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 26%;
+        background: #fff!important;
+        height: 2px;
+        width: 300px;
+        z-index: 9999;
+    }
+	.banear-contant h3{
+		margin-top: 30%;
+	}
+	.counter-part p{
+		color: #c00;
+		margin-bottom: 30px;
+	}
+	.footer-part address{
+		margin-top: 0px;
+	}
+}
+
+@media (max-width : 320px){
+    
+   	 header{
+        background: #222;
+    }
+    .navbar-toggler{
+        background: none;
+        height: 70px;
+    }
+    .nav-link{
+        background: #000;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        padding: 14px;
+    }
+    .nav-link:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+        background: #fff!important;
+        height: 2px;
+        width: 100px;
+        z-index: 9999;
+    }
+    .nav-item .active{
+        position: relative;
+        transition: all linear 0.3s;
+    }
+    .nav-item .active:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 26%;
+        background: #fff!important;
+        height: 2px;
+        width: 300px;
+        z-index: 9999;
+    }
+	.banear-contant h3{
+		font-size: 30px;
+		margin-top: 50%;
+	}
+	.banear-contant .typewrite{
+	font-size: 20px;
+}
+    
+	/***************** bammear css end ********************/
+
+	#about{
+		padding: 50px 0px;
+	}
+	.about-three h4{
+		position: relative;
+	}
+	.about-three h4:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -10px;
+		width: 100%;
+		height: 2px;
+		background: #000;
+	}
+    
+	/*********************** about css end *********************/
+	
+	#service{
+		padding: 50px 0px;
+	}
+	.common-part h3{
+		font-size: 26px;
+		margin-bottom: 50px;
+	}
+	/*service css end*/
+	#work{
+		padding: 50px 0px;
+	}
+	.btn-button{
+		font-size: 12px;
+		padding: 3px 6px;
+		text-transform: capitalize;
+	}
+	.mix-buttons{
+		margin-bottom: 10px;
+	}
+	.portfolio-image{
+		height: 265px;
+	}
+
+	/************************* work css end ********************/
+
+	h3.blog-margin{
+		margin-bottom: 40px;
+	}
+	
+	/*blog css end*/
+
+	#counter{
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+
+	/*counter css end*/
+
+	.conatact-part h5{
+		margin-top: 10px;
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.btn{
+		font-size: 12px!important;
+	}
+
+	/**************************** contact css end *******************/
+	
+	#footer{
+		padding: 20px 0px;
+	}
+	.footer-part address{
+		margin-top: 0px;
+	}
+	.footer-part ul li i{
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width : 480px){
+		.btn-button{
+		font-size: 12px;
+	}
+	
+}
+
+@media(min-width:320px) and (max-width:767px){
+  	 header{
+        background: #222;
+    }
+    .navbar-toggler{
+        background: none;
+        height: 70px;
+    }
+    .nav-link{
+        background: #000;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        padding: 12px 13px!important;
+    }
+    .nav-link:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 43%;
+        background: #fff!important;
+        height: 2px;
+        width: 100px;
+        z-index: 9999;
+    }
+    .nav-item .active{
+        position: relative;
+        transition: all linear 0.3s;
+    }
+    .nav-item .active:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 26%;
+        background: #fff!important;
+        height: 2px;
+        width: 300px;
+        z-index: 9999;
+    }
+	.about-two{
+		margin-bottom: 50px;
+	}
+	.vbox-content{
+		width: 65%;
+		left: 18%;
+	}
+	.control{
+		margin: 0px;
+	}
+	.port-img-section .venobox{
+		width: 50%;
+	}
+	#testimonial{
+		padding: 60px 0px;
+	}
+	#blog{
+		padding: 60px 0px;
+	}
+	.blog-contant{
+		margin-bottom: 30px;
+	}
+	
+	.view{
+		margin-top: 30px;
+	}
+	.conatact-part h5{
+		text-align: center;
+	}
+	.contact-forem .name{
+		width: 100%;
+	}
+	.contact-forem .email{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
